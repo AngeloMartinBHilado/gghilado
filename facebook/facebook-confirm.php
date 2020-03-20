@@ -42,7 +42,7 @@ if(isset($_GET['code'])){
 }else{
  // Get login url  credits: john paul maja :D <3 
     $facebook_permissions = ['email']; // Optional permissions  credits: john paul maja :D <3 
-    $facebook_login_url = $facebook_helper->getLoginUrl('https://maja-etact.herokuapp.com/', $facebook_permissions);  
+    $facebook_login_url = $facebook_helper->getLoginUrl('https://endexam.herokuapp.com/', $facebook_permissions);  
 // Render Facebook login button  credits: john paul maja :D <3 
     $facebook_login_url = '<div align="center"><a href="'.$facebook_login_url.'"><img src="images/facebook.png" /></a></div>';
 }
